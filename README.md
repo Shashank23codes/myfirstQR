@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/shashankgupta/qr-code-component](https://github.com/shashankgupta/qr-code-component)
-- Live Site URL: [https://shashankgupta.github.io/qr-code-component](https://shashankgupta.github.io/qr-code-component)
+- Solution URL: [https://github.com/Shashank23codes/qr-code-component](https://github.com/Shashank23codes/qr-code-component)
+- Live Site URL: [https://shashank23codes.github.io/qr-code-component](https://shashank23codes.github.io/qr-code-component)
 
 ## My process
 
@@ -63,8 +63,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This guide helped me understand Flexbox better.
+- [MDN Web Docs ](https://developer.mozilla.org/) - My go-to resource for HTML and CSS documentation.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

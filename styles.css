@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  color: hsl(216, 15%, 48%); /* Slate 500 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  line-height: 1.6;
+  padding: 20px; /* Added padding for mobile spacing */
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 375px; /* Mobile-first design */
+}
+
+/* Card */
+.card {
+  background-color: hsl(0, 0%, 100%); /* White */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* QR Code Image */
+.qr-code {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Heading */
+.card h1 {
+  font-size: 1.5rem;
+  font-weight: 700; /* Bold */
+  color: hsl(218, 44%, 22%); /* Slate 900 */
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+.card p {
+  font-size: 15px;
+  font-weight: 400; /* Regular */
+  color: hsl(216, 15%, 48%); /* Slate 500 */
+  margin-bottom: 20px;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .card {
+    max-width: 400px;
+    padding: 30px;
+  }
+
+  .card h1 {
+    font-size: 1.8rem;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .card {
+    max-width: 450px;
+    padding: 40px;
+  }
+
+  .card h1 {
+    font-size: 2rem;
+  }
+
+  .card p {
+    font-size: 17px;
+  }
+}
